@@ -30,39 +30,39 @@ or
 Usage is simple:
 
     > ./generate_password.py
-    correcthorsebatterystaple - correct.horse.battery.staple
+    correcthorsebatterystaple correct.horse.battery.staple
 
 You can also generate passwords with a different number of words:
 
     > ./generate_password.py -w 3
-    philosophyobviousfancy - philosophy.obvious.fancy
+    philosophyobviousfancy philosophy.obvious.fancy
 
 You also can put constraints on the length of the words to be used, for instance to 
 only consider words that are 3 to 5 letters long:
 
     > ./generate_password.py --min-word-length 3 --max-word-length 5
-    backpintwrapready - back.pint.wrap.ready
+    backpintwrapready back.pint.wrap.ready
 
 _Use this carefully, as it might reduce the number of possible words a LOT, resulting in weaker passwords._
 
 Or generate a couple of passwords at the same time to pick one you like:
     
     > ./generate_password.py -n 10
-    developmentfalseorganizedonly - development.false.organized.only
-    shapekilometrecontrastcouncil - shape.kilometre.contrast.council
-    woundtheorybulletgovernor - wound.theory.bullet.governor
-    playerderivetwiststressed - player.derive.twist.stressed
-    destroyleanindependencehearing - destroy.lean.independence.hearing
-    carelessbelllisthang - careless.bell.list.hang
-    handleinvolvementheavenbeside - handle.involvement.heaven.beside
-    restrictedworsemeandouble - restricted.worse.mean.double
-    extremetransparentrollscrew - extreme.transparent.roll.screw
-    scaredvalidjewellerycrop - scared.valid.jewellery.crop
+    developmentfalseorganizedonly  development.false.organized.only
+    shapekilometrecontrastcouncil  shape.kilometre.contrast.council
+    woundtheorybulletgovernor      wound.theory.bullet.governor
+    playerderivetwiststressed      player.derive.twist.stressed
+    destroyleanindependencehearing destroy.lean.independence.hearing
+    carelessbelllisthang           careless.bell.list.hang
+    handleinvolvementheavenbeside  handle.involvement.heaven.beside
+    restrictedworsemeandouble      restricted.worse.mean.double
+    extremetransparentrollscrew    extreme.transparent.roll.screw
+    scaredvalidjewellerycrop       scared.valid.jewellery.crop
 
 Furthermore it can give you some more information about the generated password(s):
     
     > ./generate_password.py -v
-    cableheatingtailcombination - cable.heating.tail.combination
+    cableheatingtailcombination cable.heating.tail.combination
     length: 27 chars, size: 127 bits, strength: 47 bits
 
 Finally it has a mode to output all passwords and their info in a tab-separated list for 
