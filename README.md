@@ -28,6 +28,7 @@ or
 
 ## Usage
 Usage is simple:
+
     > ./generate_password.py
     correcthorsebatterystaple - correct.horse.battery.staple
 
